@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <windows.h>
 
-#include "Header.h"
+#include "header.h"
 
 using namespace std;
 
