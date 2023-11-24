@@ -1,0 +1,33 @@
+﻿Сборка начата 03.11.2023 15:45:05.
+Уровень детализации журнала: Normal.     1>Проект "D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Conversation.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\Conversation.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Conversation.cpp
+         Conversation.cpp
+     1>D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.cpp(9,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.cpp(55,16): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "wchar_t *"
+       D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.cpp(55,16): message : рекомендуется использовать "%ls" в строке форматирования
+       D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.cpp(55,16): message : рекомендуется использовать "%lls" в строке форматирования
+       D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.cpp(55,16): message : рекомендуется использовать "%Ls" в строке форматирования
+       D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.cpp(55,16): message : рекомендуется использовать "%ws" в строке форматирования
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\education\raboti\Labi\OPI\lab5\Conversation\x64\Debug\Conversation.exe" /INCREMENTAL /ILK:"x64\Debug\Conversation.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\education\raboti\Labi\OPI\lab5\Conversation\x64\Debug\Conversation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\education\raboti\Labi\OPI\lab5\Conversation\x64\Debug\Conversation.lib" /MACHINE:X64 x64\Debug\Conversation.obj
+         Conversation.vcxproj -> D:\education\raboti\Labi\OPI\lab5\Conversation\x64\Debug\Conversation.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Conversation.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Conversation.tlog\Conversation.lastbuildstate".
+     1>Сборка проекта "D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.cpp(9,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\education\raboti\Labi\OPI\lab5\Conversation\Conversation\Conversation.cpp(55,16): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "wchar_t *"
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.99
