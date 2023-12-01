@@ -1,23 +1,22 @@
 #include <iostream>
 #include <cwchar> 
-#include <windows.h>
 
-#include "header.h"
+//#include "header.h"
+
+using namespace std;
 
 int get_number_code() 
 {
-
-	using namespace std;
 
 	int codeNum;
 	
 	cout << "Âגוהטעו צטפנû הכÿ ןונוגמהא " << endl;
 	
-	wstring stroka;
+	wstring wstr;
 
-	wcin >> stroka;
+	wcin >> wstr;
 
-	for (wchar_t symbol : stroka) {
+	for (wchar_t symbol : wstr) {
 
 		codeNum = static_cast<int>(symbol);
 
