@@ -1,15 +1,14 @@
-﻿Сборка начата 24.11.2023 15:05:35.
+﻿Сборка начата 16.12.2023 9:28:40.
 Уровень детализации журнала: Normal.     1>Проект "D:\education\raboti\Labi\OPI\lab6\lab6\lab6\lab6.vcxproj" в узле 2 (целевые объекты Build).
      1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lab6.vcxproj).  Это может привести к ошибкам очистки и перестроения.
      1>InitializeBuildStatus:
+         Создание "x64\Debug\lab7.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
          Обращение к "x64\Debug\lab7.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt get_english_letter_differense_in_ASCII.cpp get_number_code.cpp get_russian_letter_differense_in_Windows1251.cpp main.cpp out_programm.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt get_english_letter_differense_in_ASCII.cpp get_number_code.cpp main.cpp
          get_english_letter_differense_in_ASCII.cpp
          get_number_code.cpp
-         get_russian_letter_differense_in_Windows1251.cpp
          main.cpp
-         out_programm.cpp
          Создание кода...
        Link:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\education\raboti\Labi\OPI\lab6\lab6\x64\Debug\lab7.exe" /INCREMENTAL /ILK:"x64\Debug\lab7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\education\raboti\Labi\OPI\lab6\lab6\x64\Debug\lab7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\education\raboti\Labi\OPI\lab6\lab6\x64\Debug\lab7.lib" /MACHINE:X64 x64\Debug\out_programm.obj
@@ -32,4 +31,4 @@
     Предупреждений: 1
     Ошибок: 0
 
-Прошло времени 00:00:02.34
+Прошло времени 00:00:01.74

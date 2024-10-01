@@ -3,7 +3,7 @@
 
 #include "header.h"
 
-int get_english_letter_differense_in_ASCI I()
+int get_english_letter_differense_in_ASCII()
 {
 
     using namespace std;
